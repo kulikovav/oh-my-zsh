@@ -18,8 +18,8 @@ fi
 echo "\033[0;34mUsing the Oh My Zsh template file and adding it to ~/.zshrc\033[0m"
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 echo "\033[0;34mVim\screen template files copying to ~/.vimrc\033[0m"
-cp ~/.oh-my-zsh/templates/vimrc-template ~/.zshrc
-cp ~/.oh-my-zsh/templates/screenrc-template ~/.zshrc
+cp ~/.oh-my-zsh/templates/vimrc-template ~/.vimrc
+cp ~/.oh-my-zsh/templates/screenrc-template ~/.screenrc
 
 echo "\033[0;34mCopying your current PATH and adding it to the end of ~/.zshrc for you.\033[0m"
 echo "export PATH=$PATH" >> ~/.zshrc
