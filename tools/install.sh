@@ -5,7 +5,7 @@ then
 fi
 
 echo "\033[0;34mCloning Oh My Zsh...\033[0m"
-/usr/bin/env git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+/usr/bin/env git clone https://github.com/kulikovav/oh-my-zsh.git ~/.oh-my-zsh
 
 echo "\033[0;34mLooking for an existing zsh config...\033[0m"
 if [ -f ~/.zshrc ] || [ -h ~/.zshrc ]
@@ -17,6 +17,9 @@ fi
 
 echo "\033[0;34mUsing the Oh My Zsh template file and adding it to ~/.zshrc\033[0m"
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+echo "\033[0;34mVim\screen template files copying to ~/.vimrc\033[0m"
+cp ~/.oh-my-zsh/templates/vimrc-template ~/.zshrc
+cp ~/.oh-my-zsh/templates/screenrc-template ~/.zshrc
 
 echo "\033[0;34mCopying your current PATH and adding it to the end of ~/.zshrc for you.\033[0m"
 echo "export PATH=$PATH" >> ~/.zshrc
