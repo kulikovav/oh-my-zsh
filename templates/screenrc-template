@@ -95,5 +95,3 @@ hardstatus alwayslastline "%{kc}load[%l] %{kg} %d.%m.%Y %c"
 
 # scrolling fix
 termcapinfo xterm ti@:te@
-
-setenv SSH_AUTH_SOCK "/tmp/ssh-agent-$USER-screen"
