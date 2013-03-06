@@ -1,3 +1,5 @@
+#!/bin/sh
+
 if [ -d ~/.vim ]; then
     exit
 else
