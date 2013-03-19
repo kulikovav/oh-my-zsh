@@ -20,7 +20,7 @@ fi
 echo "\033[0;34mUsing the Oh My Zsh template file and adding it to ~/.zshrc\033[0m"
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 cp ~/.oh-my-zsh/templates/screenrc-template ~/.screenrc
-cp ~/.oh-my-zsh/templates/gitconfig-template ~/.screenrc
+cp ~/.oh-my-zsh/templates/gitconfig-template ~/.gitconfig
 echo "\033[0;34mVim\screen template files copying to ~/.vimrc\033[0m"
 ~/.oh-my-zsh/tools/vim/install.sh
 
